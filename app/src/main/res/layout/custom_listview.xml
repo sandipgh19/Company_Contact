@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/company_name_view"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:text="Tap for Contact Details"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</LinearLayout>
